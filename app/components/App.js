@@ -1,8 +1,13 @@
 import React from 'react'
+import Footer from './presentation/Footer'
+import FilteredKnightList from './container/FilteredKnightList'
+import AddKnightToTournament from './container/AddKnightToTournament'
 
 const App = () => (
     <div>
-        <h3>The App Component Is Initiated</h3>
+        <AddKnightToTournament />
+        <FilteredKnightList />
+        <Footer />
     </div>
 )
 

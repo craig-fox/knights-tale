@@ -1,5 +1,5 @@
 import expect from 'expect'
-import myApp from '../app/reducers/myApp'
+import myApp from '../app/app'
 
 describe('Reducers', function(){
     const initState = {

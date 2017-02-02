@@ -2,10 +2,10 @@ import React from 'react'
 import { createStore } from 'redux'
 import {render} from 'react-dom'
 import { Provider } from 'react-redux'
-import myApp from './reducers/myApp'
+import knightsTaleApp from './reducers/index'
 import App from './components/App'
 
-let store = createStore(myApp);
+let store = createStore(knightsTaleApp)
 
 render(
     <Provider store={store}>
